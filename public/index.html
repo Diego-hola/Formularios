@@ -60,6 +60,141 @@
           document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
         }
       });
+
+
+	<link rel="stylesheet" href="misestilos.css">
+ <h1 center > HOLA POR FAVOR INDICANOS DE DONDE ERES Y TAL VEZ TE PODREMOS RECOMENDAR ALGUNA BEBIDA </h1>
+<body>
+
+	
+	<form action="javascript:;">
+          <center>
+          
+          </center>
+        <center>
+          
+            
+              <tr>
+                  <h2>Bar friends && Family</h2> </th><br>
+                  <br>
+              </tr>
+              <tr>
+              	<br>
+              	<br>
+                  <td>Ingresa el pais de donde nos visitas : 
+                          <select name="lol" id="reco">
+                              <!-- Opciones de la lista -->
+                              <option value="1"></option>
+                              <option value="2">Brasil</option>
+                              <option value="3">Mexico</option>
+                              <option value="4">Alemania</option>
+                              <option value="5">Portugal</option>
+                              <option value="6">Colombia</option>
+                              <option value="7">Estados Unidos</option>
+                              <option value="8">Iran</option>
+                              <option value="9">China</option>
+                              <option value="10">Berlin</option>
+                              
+                            </select>
+                           
+
+                            <br><td>  Ingresa tu edad: <input type="number" name="numero" value="15" min="10"
+                              max="75" 
+                              id="reco1">
+                              <tr>
+                              
+                  <td > <br><br><br><input type="submit" value="Enviar"></td>
+              </tr>
+           
+          </table>
+        </center>
+        
+      </form>
+  </div>
+  <script>
+    "use strict";
+
+    var resp = document.getElementById("recoco");
+    var resp1 = document.getElementById("reco1");
+
+    document.addEventListener("submit", recomendaciones);
+
+    function recomendaciones() {
+        var cantante = reco.value;
+        var edad = reco1.value;
+
+        if (cantante == "2" && edad >= 18 && edad < 70) {
+             alert(" le recomiendo una cerveza ");
+
+        } else if (cantante == "3" && edad >= 18 && edad < 70) {
+            alert(" le recomiendo un wisky ");
+
+
+
+        } else if (cantante == "4" && edad >= 18 && edad < 70) {
+            alert(" le recomiendo un vodka");
+
+        
+
+        } else if (cantante == "5" && edad >= 18 && edad < 70) {
+            alert("le recomiendo un cafe ");
+
+        
+        } else if (cantante == "6" && edad >= 18 && edad < 70) {
+            alert("Una corona !");
+      
+       
+        } else if (cantante == "7" && edad >= 18 && edad < 70) {
+            alert(" le recomiendo un martini en las rocas");
+
+
+       
+        } else if (cantante == "8" && edad >= 18 && edad < 70) {
+            alert(" le recomiendo un vodka");
+
+        
+       
+        } else if (cantante == "9" && edad >= 18 && edad < 70) {
+             alert(" le recomiendo un vampiro");
+        
+        
+        } else if (cantante == "10" && edad >= 18 && edad < 70) {
+           alert(" le recomiendo un tee helado");
+        
+
+         
+
+       } else if (cantante=="2" && edad>=70){
+            alert("Leche con chocolate ");
+
+          } else if (cantante=="3" && edad>=70){
+            alert(" Un vaso de Agua ");
+
+          } else if (cantante=="4" && edad>=70){
+            alert("No tenemos una buena recomendacion asi que tome asiento ");
+
+          } else if (cantante=="5" && edad>=70){
+            alert("Un rico coñac");
+
+          } else {
+            alert("Lo sentimos no tenemos recomendacion para Usted o puede que sea menor de edad :(");
+
+        }
+
+
+
+    }
+</script>
     </script>
+    <footer>
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        
+          <address>Estado de Mexico</address>
+          <small>&copy; Derechos Reservados 2020  Rivera Gonzalez Diegpo </small>
+        
+    </footer>
+
   </body>
 </html>
